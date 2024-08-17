@@ -60,7 +60,7 @@
         // Calcular o bônus
         $bonus = $lucros * $porcentagem_bonus;
 
-        echo "<p>O funcionário <strong>$nome_funcionario</strong> por quebrar muitas motos receberá um bônus de: R$ " . number_format($bonus, 2, ',', '.') . "</p>";
+        echo "<p>O funcionário <strong>$nome_funcionario</strong> receberá um bônus de: R$ " . number_format($bonus, 2, ',', '.') . "</p>";
     }
 
     require("rodape.php"); 
