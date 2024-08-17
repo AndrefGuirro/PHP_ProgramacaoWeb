@@ -1,4 +1,4 @@
-<?php require("header.php"); ?>
+<?php require("cabecalho.php"); ?>
 <h1>Atividade 2</h1>
 <form action="exercicio2.php" method="post">
     <div class="linha">
@@ -32,5 +32,5 @@
         echo "<p>O salário semanal é: R$ " . number_format($salario_mensal, 2, ',', '.') . "</p>";
     }
 
-    require("footer.php"); 
+    require("rodape.php"); 
 ?>
