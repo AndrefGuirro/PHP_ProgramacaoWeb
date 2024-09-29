@@ -9,7 +9,7 @@
   </head>
   <body>
     <?php
-      require_once "menu.html";
+      require_once "index.html";
       require_once "funcoes.php";
     ?>
     
